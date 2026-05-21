@@ -73,8 +73,8 @@ export const content = {
     title: { jp: "Development / Works", en: "Development / Works" },
     items: [
       {
-        jp: "Discordコミュニティ向けサービス「Discord Labo」の開発",
-        en: 'Development of "Discord Labo", a service for Discord communities',
+        jp: "Discordコミュニティ向けサービス\n「Discord Labo」の開発",
+        en: 'Development of "Discord Labo", \na service for Discord communities',
       },
       {
         jp: "多機能 Discord Botの設計・開発",
@@ -110,8 +110,8 @@ export const content = {
   contact: {
     title: { jp: "お問い合わせ", en: "Contact Me" },
     text: {
-      jp: "ご相談・ご依頼はお気軽にご連絡ください。",
-      en: "Feel free to reach out for inquiries or projects.",
+      jp: "ご相談・ご依頼はお気軽に\nご覧ください。",
+      en: "Feel free to reach out for inquiries\nor projects.",
     },
     discord: { jp: "ayame_397", en: "ayame_397" },
     twitter: { jp: "@ayame_4507", en: "@ayame_4507" },

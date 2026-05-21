@@ -86,11 +86,11 @@ export function Contact() {
             </h2>
           </div>
 
-          <p className="text-ayame-gray text-lg font-light mb-20 font-sans tracking-wide leading-loose">
+          <p className="text-ayame-gray text-lg font-light mb-20 font-sans tracking-wide leading-loose whitespace-pre-line">
             {content.contact.text[language]}
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-12 mb-10">
+          <div className="flex flex-row justify-center items-center gap-12 sm:gap-16 mb-10">
             <button
               onClick={handleCopyDiscord}
               className="flex flex-col items-center justify-center gap-4 text-ayame-gray hover:text-white transition-all group relative"

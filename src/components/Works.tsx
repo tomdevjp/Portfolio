@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { useLanguage } from "../context/LanguageContext";
 import { content } from "../content";
+import React from "react";
 
 export function Works() {
   const { language } = useLanguage();
@@ -27,7 +28,12 @@ export function Works() {
                 <div className="flex items-start gap-3 md:gap-4 pb-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-ayame-accent/50 block mt-2 md:mt-2.5 flex-shrink-0"></span>
                   <span className="text-sm md:text-lg font-display md:tracking-wider leading-relaxed text-ayame-gray break-words">
-                    {item[language]}
+                    {item[language].split('\n').map((line, i, arr) => (
+                      <React.Fragment key={i}>
+                        {line}
+                        {i < arr.length - 1 && <br className="md:hidden" />}
+                      </React.Fragment>
+                    ))}
                   </span>
                 </div>
               </li>

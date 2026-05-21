@@ -40,7 +40,7 @@ export function Hero() {
               whileHover="hover"
               initial="rest"
               animate="rest"
-              className="flex flex-col gap-4 group w-max mx-auto md:mx-0 cursor-pointer"
+              className="flex flex-col gap-4 group w-max mx-auto md:mx-0 cursor-pointer pt-6"
             >
               <span className="text-[10px] tracking-[0.3em] font-sans text-ayame-gray uppercase group-hover:text-white transition-colors duration-300">
                 Scroll to contact
@@ -52,7 +52,7 @@ export function Hero() {
                 }}
                 className="inline-flex flex-col items-center gap-2 text-ayame-gray group-hover:text-white transition-colors w-max mx-auto md:mx-0"
               >
-                <div className="flex flex-col items-center justify-center h-12">
+                <div className="flex flex-col items-center justify-center h-4">
                   <ArrowDown
                     className="w-5 h-5 text-ayame-gray group-hover:text-ayame-accent transition-colors"
                     strokeWidth={1.5}
