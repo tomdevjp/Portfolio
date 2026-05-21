@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex flex-col justify-center min-h-[75vh] pb-10"
+      className="relative flex flex-col justify-center min-h-[75vh] pb-0 md:pb-10"
     >
       <div className="absolute top-0 right-0 h-full w-1/3 bg-ayame-surface border-l border-ayame-border opacity-20 hidden md:block"></div>
 
@@ -26,11 +26,11 @@ export function Hero() {
             </span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-[85px] font-display font-light text-white mb-10 leading-[1.3] md:leading-[1.1] whitespace-pre-line tracking-wide break-keep">
+          <h1 className="text-[11vw] sm:text-5xl md:text-7xl lg:text-[85px] w-full font-display font-light text-white mb-10 leading-[1.3] md:leading-[1.1] whitespace-pre-line tracking-wide">
             {content.hero.headline[language]}
           </h1>
 
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mt-16 md:mt-24">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-16 md:gap-8 mt-12 md:mt-24">
             <p className="text-base md:text-xl text-ayame-gray max-w-xl font-light whitespace-pre-line leading-loose font-display md:tracking-widest md:text-justify text-left break-words">
               {content.hero.subheadline[language]}
             </p>

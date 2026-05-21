@@ -17,8 +17,14 @@ export default function App() {
         <main className="max-w-7xl mx-auto px-6 md:px-12">
           <Hero />
           <About />
-          <Works />
-          <Skills />
+          <div className="flex flex-col md:flex-row md:items-start justify-between gap-0 md:gap-24 w-full">
+            <div className="w-full md:w-1/2">
+              <Works />
+            </div>
+            <div className="w-full md:w-1/2">
+              <Skills />
+            </div>
+          </div>
         </main>
         <Contact />
         <Footer />

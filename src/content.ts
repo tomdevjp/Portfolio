@@ -110,7 +110,7 @@ export const content = {
   contact: {
     title: { jp: "お問い合わせ", en: "Contact Me" },
     text: {
-      jp: "ご相談・ご依頼はお気軽に\nご覧ください。",
+      jp: "ご相談・ご依頼はお気軽に\nご連絡ください。",
       en: "Feel free to reach out for inquiries\nor projects.",
     },
     discord: { jp: "ayame_397", en: "ayame_397" },
